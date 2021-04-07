@@ -1,0 +1,306 @@
+2021-04-06 17:29:04,305 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 13780 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 17:29:04,308 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 17:29:05,004 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 17:29:05,019 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-04-06 17:29:05,597 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 17:29:05,610 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 17:29:05,610 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 17:29:05,611 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 17:29:05,717 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 17:29:05,717 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1364 ms
+2021-04-06 17:29:05,882 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 17:29:05,936 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 17:29:06,072 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 17:29:06,163 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 17:29:06,331 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 17:29:06,347 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 17:29:07,176 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 17:29:07,183 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 17:29:07,307 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 17:29:07,377 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 17:29:07,808 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 17:29:07,931 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 17:29:07,961 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 17:29:07,970 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 4.161 seconds (JVM running for 4.575)
+2021-04-06 18:45:15,199 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 14564 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 18:45:15,201 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 18:45:15,758 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 18:45:15,809 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-04-06 18:45:16,255 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 18:45:16,263 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 18:45:16,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 18:45:16,264 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 18:45:16,353 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 18:45:16,353 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1118 ms
+2021-04-06 18:45:16,476 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 18:45:16,523 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 18:45:16,600 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 18:45:16,660 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 18:45:16,779 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 18:45:16,791 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 18:45:17,277 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 18:45:17,284 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 18:45:17,560 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 18:45:17,608 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 18:45:17,941 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 18:45:18,033 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 18:45:18,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 18:45:18,056 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.21 seconds (JVM running for 3.555)
+2021-04-06 18:46:25,786 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 18:46:25,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 18:46:25,788 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 18:46:29,934 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-4] Init duration for springdoc-openapi is: 345 ms
+2021-04-06 18:50:34,127 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-2] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 18:50:34,130 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-2] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 18:50:34,133 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2021-04-06 19:10:24,235 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-9] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:10:24,237 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-9] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:10:24,237 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2021-04-06 19:11:16,902 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-6] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:11:16,904 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-6] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:11:16,905 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2021-04-06 19:13:01,816 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-10] init getLocations
+2021-04-06 19:13:01,961 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-10] end getLocations
+2021-04-06 19:32:51,767 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 15704 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 19:32:51,770 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 19:32:52,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 19:32:52,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-04-06 19:32:53,195 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 19:32:53,206 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:32:53,207 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 19:32:53,207 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 19:32:53,327 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 19:32:53,327 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1511 ms
+2021-04-06 19:32:53,515 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 19:32:53,576 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 19:32:53,679 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 19:32:53,766 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 19:32:53,914 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 19:32:53,929 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 19:32:54,569 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 19:32:54,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 19:32:54,922 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 19:32:54,983 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 19:32:55,398 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 19:32:55,535 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:32:55,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 19:32:55,570 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 4.293 seconds (JVM running for 4.774)
+2021-04-06 19:33:41,755 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 19:33:41,758 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 19:33:41,760 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 19:33:41,865 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-1] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:33:41,870 WARN org.springframework.core.log.CompositeLog [http-nio-8080-exec-1] Failed to evaluate Jackson deserialization for type [[simple type, class com.sanvalero.greenroute.domain.Location]]: com.fasterxml.jackson.databind.JsonMappingException: Multiple back-reference properties with name 'defaultReference'
+2021-04-06 19:33:41,873 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2021-04-06 19:51:43,032 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 9764 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 19:51:43,035 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 19:51:43,615 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 19:51:43,658 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2021-04-06 19:51:44,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 19:51:44,154 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:51:44,155 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 19:51:44,155 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 19:51:44,252 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 19:51:44,253 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1184 ms
+2021-04-06 19:51:44,393 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 19:51:44,442 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 19:51:44,531 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 19:51:44,606 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 19:51:44,734 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 19:51:44,747 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 19:51:45,284 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 19:51:45,290 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 19:51:45,569 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 19:51:45,620 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 19:51:45,938 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 19:51:46,038 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:51:46,057 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 19:51:46,067 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.429 seconds (JVM running for 3.775)
+2021-04-06 19:52:06,736 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 19:52:06,737 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 19:52:06,738 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 19:52:06,779 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-1] init getLocations
+2021-04-06 19:52:06,934 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-1] end getLocations
+2021-04-06 19:52:14,261 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "1978-10-23": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '1978-10-23' could not be parsed at index 2; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "1978-10-23": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '1978-10-23' could not be parsed at index 2
+ at [Source: (PushbackInputStream); line: 5, column: 19] (through reference chain: com.sanvalero.greenroute.domain.Location["startingDate"])]
+2021-04-06 19:53:08,620 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-5] init addLocation
+2021-04-06 19:53:08,660 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-5] end addLocation
+2021-04-06 19:58:12,289 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 9960 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 19:58:12,291 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 19:58:12,858 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 19:58:12,904 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-04-06 19:58:13,393 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 19:58:13,401 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:58:13,402 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 19:58:13,402 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 19:58:13,500 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 19:58:13,500 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1177 ms
+2021-04-06 19:58:13,647 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 19:58:13,700 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 19:58:13,788 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 19:58:13,862 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 19:58:13,995 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 19:58:14,008 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 19:58:14,536 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 19:58:14,544 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 19:58:14,826 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 19:58:14,884 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 19:58:15,203 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 19:58:15,309 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 19:58:15,326 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 19:58:15,335 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.429 seconds (JVM running for 3.771)
+2021-04-06 19:59:04,026 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 19:59:04,027 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2021-04-06 19:59:04,029 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2021-04-06 19:59:04,196 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-3] init addLocation
+2021-04-06 19:59:04,269 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-3] end addLocation
+2021-04-06 20:04:59,391 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-5] init getLocations
+2021-04-06 20:04:59,502 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-5] end getLocations
+2021-04-06 20:20:16,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 13780 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 20:20:16,639 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 20:20:17,210 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 20:20:17,254 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2021-04-06 20:20:17,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 20:20:17,755 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 20:20:17,756 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 20:20:17,756 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 20:20:17,854 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 20:20:17,855 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1181 ms
+2021-04-06 20:20:18,009 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 20:20:18,059 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 20:20:18,144 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 20:20:18,214 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 20:20:18,343 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 20:20:18,355 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 20:20:18,879 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 20:20:18,885 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 20:20:19,173 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 20:20:19,226 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 20:20:19,548 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 20:20:19,648 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 20:20:19,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 20:20:19,675 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.41 seconds (JVM running for 3.736)
+2021-04-06 20:21:41,517 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 20:21:41,517 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 20:21:41,519 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-04-06 20:22:05,353 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-3] init addLocation
+2021-04-06 20:22:05,432 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-3] end addLocation
+2021-04-06 20:22:28,585 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-4] init getLocations
+2021-04-06 20:22:28,692 INFO com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-4] end getLocations
+2021-04-06 20:26:31,211 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+2021-04-06 20:28:22,025 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 8580 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 20:28:22,028 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 20:28:22,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 20:28:22,598 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2021-04-06 20:28:23,041 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 20:28:23,049 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 20:28:23,049 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 20:28:23,050 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 20:28:23,141 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 20:28:23,141 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1079 ms
+2021-04-06 20:28:23,283 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 20:28:23,326 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 20:28:23,407 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 20:28:23,469 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 20:28:23,584 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 20:28:23,596 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 20:28:24,079 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 20:28:24,086 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 20:28:24,339 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 20:28:24,387 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 20:28:24,700 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 20:28:24,800 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 20:28:24,817 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 20:28:24,825 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.149 seconds (JVM running for 3.492)
+2021-04-06 20:28:29,248 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 20:28:29,248 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-06 20:28:29,250 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-04-06 20:29:52,969 ERROR com.sanvalero.greenroute.controller.restcontroller.LocationController [http-nio-8080-exec-4] null
+com.sanvalero.greenroute.exception.LocationNotFoundException: null
+	at com.sanvalero.greenroute.controller.restcontroller.LocationController.lambda$getLocationById$0(LocationController.java:69)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.sanvalero.greenroute.controller.restcontroller.LocationController.getLocationById(LocationController.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-04-06 23:55:24,270 INFO org.springframework.boot.StartupInfoLogger [main] Starting GreenrouteApplication using Java 11.0.8 on DESKTOP-SPU9LGP with PID 13552 (C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute\target\classes started by shady in C:\Users\shady\Documents\Proyectos_IntelliJ\greenroute)
+2021-04-06 23:55:24,272 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-04-06 23:55:24,792 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-06 23:55:24,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2021-04-06 23:55:25,331 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-04-06 23:55:25,343 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-06 23:55:25,344 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-04-06 23:55:25,344 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-06 23:55:25,448 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-04-06 23:55:25,448 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1144 ms
+2021-04-06 23:55:25,602 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-06 23:55:25,661 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-06 23:55:25,774 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-06 23:55:25,884 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 23:55:26,065 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 23:55:26,084 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-06 23:55:26,736 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-06 23:55:26,742 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-06 23:55:27,026 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-06 23:55:27,094 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:55:27,451 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-06 23:55:27,544 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-04-06 23:55:27,565 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-06 23:55:27,571 INFO org.springframework.boot.StartupInfoLogger [main] Started GreenrouteApplication in 3.651 seconds (JVM running for 3.954)
+2021-04-06 23:55:40,027 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 23:55:40,027 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-06 23:55:40,028 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-04-06 23:55:40,759 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-5] Init duration for springdoc-openapi is: 514 ms
+2021-04-06 23:57:52,595 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2021-04-06": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2021-04-06' could not be parsed at index 2; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "2021-04-06": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2021-04-06' could not be parsed at index 2
+ at [Source: (PushbackInputStream); line: 6, column: 17] (through reference chain: com.sanvalero.greenroute.domain.dto.MaintenanceDTO["foundation"])]
+2021-04-06 23:58:38,422 INFO com.sanvalero.greenroute.controller.restcontroller.MaintenanceController [http-nio-8080-exec-2] init addMaintenance
+2021-04-06 23:58:38,519 INFO com.sanvalero.greenroute.controller.restcontroller.MaintenanceController [http-nio-8080-exec-2] end addMaintenance
