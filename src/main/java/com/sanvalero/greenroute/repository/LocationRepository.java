@@ -15,4 +15,5 @@ import java.util.Set;
 public interface LocationRepository extends CrudRepository<Location, Long> {
 
     Set<Location> findAll();
+    Location findByName(String name);
 }

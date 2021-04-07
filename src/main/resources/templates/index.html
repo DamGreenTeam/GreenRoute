@@ -1,13 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Start</title>
+    <link th:href="@{/css/index.css}" rel="stylesheet" />
+
 </head>
 <body>
 
-    <h1>Wellcome to GreenRoute</h1>
-    <p>Have a look at our <a href="location_list">list</a> of locations</p>
+<header>
+    <div class="logo">
+
+    </div>
+</header>
+
+<h1>Wellcome to GreenRoute</h1>
+
+<nav>
+    <ul>
+        <li><a href="location_list">Locations</a></li>
+        <li><a href="maintenance_list">Maintenance Companies</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <div class="formulario">
+        <form action="#" id="formulario" method="POST">
+            <p class="reclamo">Recibe nuestra newsettler<br><span class="titulo">Información carreteras</span><br>GRATIS</p>
+            <div class="contenido">
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="Nombre" placeholder="Escribe nombre y apellidos"><br>
+                <p id="errorNom"></p>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="text" id="telefono" name="Teléfono" placeholder="Ej. +34912555555"><br>
+                <p id="errorTel"></p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="Email" placeholder="jewels@jewels.com"><br>
+                <p id="errorMail"></p>
+                <label for="pais">País:</label><br>
+                <input type="text" id="pais" name="País" placeholder="Escribe el país"><br>
+                <p id="errorPais"></p>
+                <button type="submit" id="boton" value="Registrarte">Registrarte</button>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <div id="contain">
+        <div id="atencion">
+            <ul>
+                <li><a href="#">
+                    <h4>Atención al cliente</h4>
+                </a></li>
+                <li><a href="#">Envíos y Entregas</a></li>
+                <li><a href="#">Devoluciones e Intercambios</a></li>
+                <li><a href="#">Guía de Tallas</a></li>
+                <li><a href="#">Contactar Serrvicio al Cliente</a></li>
+                <li><a href="#">Localizador de Tiendas</a></li>
+            </ul>
+        </div>
+        <div id="cuentas">
+            <ul>
+                <li><a href="#">
+                    <h4>Cuentas</h4>
+                </a></li>
+                <li><a href="#">Mi Cuenta</a></li>
+                <li><a href="#">Ver Pedido</a></li>
+                <li><a href="#">Lista de deseos</a></li>
+                <li><a href="#">Joyero</a></li>
+            </ul>
+        </div>
+        <div id="nosotros">
+            <ul>
+                <li><a href="#">
+                    <h4>Sobre Nosotros</h4>
+                </a></li>
+                <li><a href="#">Vacantes</a></li>
+                <li><a href="#">Buscamos distribuidores</a></li>
+                <li><a href="#">Socios Globales</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy; Sitio desarrollado por GreenTeam | Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>

@@ -3,24 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Location List</title>
-
-    <style type="text/css">
-        body {
-            margin: 0;
-            color: purple;
-            background-color: #d8da3d;
-            font-size: 28px;
-            text-align:center;}
-        ul {
-            list-style-type: none; }
-    </style>
+    <link th:href="@{/css/location_list.css}" rel="stylesheet" />
 
 </head>
+
 <body>
+
     <h1>Location list</h1>
 
     <ul th:each="location : ${locations}">
-        <li><p th:text="${location.name}"></p></li>
+        <li><a th:href="@{'detail_location/' + ${location.id}}" th:text="${location.name}"></a></li>
     </ul>
+
 </body>
+
 </html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Location detail</title>
+    <link th:href="@{/css/location_list.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+<h1 th:text="${location.name}">Location list</h1>
+
+<p>Localidad: <span th:text="${location.name}"></span></p>
+<p>Extension: <span th:text="${location.extension}"></span></p>
+<p>Creacion servicio: <span th:text="${location.startingDate}"></span></p>
+
+</body>
+</html>

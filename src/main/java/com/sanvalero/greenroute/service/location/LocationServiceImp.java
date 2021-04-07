@@ -32,6 +32,11 @@ public class LocationServiceImp implements LocationService {
     }
 
     @Override
+    public Location findByName(String name) {
+        return locationRepository.findByName(name);
+    }
+
+    @Override
     public Location addLocation(Location location) {
         return locationRepository.save(location);
     }

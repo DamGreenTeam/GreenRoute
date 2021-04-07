@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    color: purple;
+    background-color: #F3EDE5;
+    font-size: 28px;
+    text-align:center;
+    }
+
+ul {
+    list-style-type: none;
+    }
+
+/*.table {
+    border: solid 2px black;
+    padding: 8px;
+}
+
+.row {
+    border: solid 2px black;
+
+        padding: 8px;
+        min-width:
+}
+
+.cell {
+    border: solid 2px black;
+    padding: 8px;
+}*/

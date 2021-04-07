@@ -15,6 +15,7 @@ public interface LocationService {
 
     Set<Location> findAll();
     Optional<Location> findById(long id);
+    Location findByName(String name);
 
     Location addLocation(Location location);
     Location modifyLocation(long id, LocationDTO locationDTO);
