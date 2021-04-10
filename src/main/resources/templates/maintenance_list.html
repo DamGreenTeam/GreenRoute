@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Maintenance List</title>
+    <link th:href="@{/css/maintenance_list.css}" rel="stylesheet" />
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+    </div>
+</header>
+
+<h1>Maintenance list</h1>
+
+<section>
+    <div class="form">
+        <div id="container">
+            <ul th:each="maintenance : ${maintenances}">
+                <li><a th:href="@{'detail_maintenance/' + ${maintenance.id}}" th:text="${maintenance.name}"></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="contain">
+        <div id="atencion">
+            <ul>
+                <li><a href="#">
+                    <h4>Customer support</h4>
+                </a></li>
+                <li><a href="#">Roads</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Radars</a></li>
+                <li><a href="#">Station Service</a></li>
+                <li><a href="#">Petrol Station</a></li>
+            </ul>
+        </div>
+        <div id="cuentas">
+            <ul>
+                <li><a href="#">
+                    <h4>Services</h4>
+                </a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Rest areas</a></li>
+                <li><a href="#">SOS Post</a></li>
+                <li><a href="#">Tunnel</a></li>
+            </ul>
+        </div>
+        <div id="nosotros">
+            <ul>
+                <li><a href="#">
+                    <h4>About us</h4>
+                </a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy; WebSite developed by GreenTeam | All rights reserved.</p>
+</footer>
+
+</body>
+</html>

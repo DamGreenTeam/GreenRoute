@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Maintenance detail</title>
+    <link th:href="@{/css/maintenance_list.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+    </div>
+</header>
+
+<h1 th:text="${maintenance.name}">Location list</h1>
+
+<section>
+    <div class="form">
+        <div id="container">
+            <p>Nombre: <span th:text="${maintenance.name}"></span></p>
+            <p>Beneficios: <span th:text="${maintenance.benefits}"></span></p>
+            <p>Número de vehículos: <span th:text="${maintenance.vehicles}"></span></p>
+            <p>Fecha creación: <span th:text="${maintenance.foundation}"></span></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="contain">
+        <div id="atencion">
+            <ul>
+                <li><a href="#">
+                    <h4>Customer support</h4>
+                </a></li>
+                <li><a href="#">Roads</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Radars</a></li>
+                <li><a href="#">Station Service</a></li>
+                <li><a href="#">Petrol Station</a></li>
+            </ul>
+        </div>
+        <div id="cuentas">
+            <ul>
+                <li><a href="#">
+                    <h4>Services</h4>
+                </a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Rest areas</a></li>
+                <li><a href="#">SOS Post</a></li>
+                <li><a href="#">Tunnel</a></li>
+            </ul>
+        </div>
+        <div id="nosotros">
+            <ul>
+                <li><a href="#">
+                    <h4>About us</h4>
+                </a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy; WebSite developed by GreenTeam | All rights reserved.</p>
+</footer>
+
+</body>
+</html>

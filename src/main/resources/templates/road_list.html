@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Road List</title>
+    <link th:href="@{/css/road_list.css}" rel="stylesheet" />
+
+</head>
+<body>
+<h1>Road list</h1>
+
+<table th:each="road : ${roads}">
+    <tr>
+        <td>Nombre</td>
+        <td>Longitud</td>
+        <td>Fecha de construccion</td>
+    </tr>
+    <tr>
+        <td><p th:text="${road.name}"></p></td>
+        <td><p th:text="${road.length}"></p></td>
+        <td><p th:text="${road.buildDate}"></p></td>
+    </tr>
+</table>
+</body>
+</html>
