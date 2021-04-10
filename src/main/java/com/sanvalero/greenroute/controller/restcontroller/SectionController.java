@@ -120,7 +120,7 @@ public class SectionController {
             @ApiResponse(responseCode = "200", description = "Delete section", content = @Content(schema = @Schema(implementation = Section.class))),
             @ApiResponse(responseCode = "404", description = "Fail deleting section", content = @Content(schema = @Schema(implementation = Response.class)))
     })
-    @DeleteMapping(value = "/GreenRoute/sections/{id}")
+    @DeleteMapping(value = "/greenroute/sections/{id}")
     public ResponseEntity<Response> deleteSection(@PathVariable long id){
         logger.info("[init deleteSection]");
         sectionService.deleteSection(id);
